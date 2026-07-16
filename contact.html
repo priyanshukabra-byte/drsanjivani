@@ -171,7 +171,7 @@ document.getElementById("enquiryForm").addEventListener("submit",async function(
   };
   
   try{
-  const SCRIPT_URL="https://script.google.com/macros/s/AKfycbz9bzeO3ZRPeZBhHLI8vdWgQnu197bSWNytZwtHeRsmhTvj__8_hX8oE4RBZjAuDmMwpA/exec";
+  const SCRIPT_URL="https://script.google.com/macros/s/AKfycbxyfV6Gyhj307dPfuuMuhJhscEKoO8dV0fscvec4faFFWsMky9Fm6SNyKJEUdshkeVvvA/exec";
   await fetch(SCRIPT_URL,{method:"POST",body:JSON.stringify(data)});
   document.getElementById("enquiryForm").style.display="none";
   document.getElementById("formSuccess").style.display="block";
